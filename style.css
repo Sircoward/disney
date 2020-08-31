@@ -1,0 +1,577 @@
+/*BASE*/
+
+section {
+    padding: 0px 0px 70px 0px;
+}
+
+body {
+    background-color: #040714;
+    font-family: Avenir-Roman,sans-serif;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@font-face{
+    font-family: Avenir-Roman;
+    src: url("fonts/Avenir-Roman-12.woff");
+}
+
+/*HEADER*/
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+
+header h2{
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.6);
+    font-size: 15px;
+    position: relative;
+    z-index: 2;
+    margin: 25px;
+	border: 1px solid #f9f9f9;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+header h2:hover{
+	color: black;
+	background-color: white;
+}
+
+header #navbar_login {
+    position: fixed;
+    z-index: 4;
+}
+ 
+header #navbar_login {
+    margin: -7px 25px 0px 0px;
+}
+/*Background Section 1 */
+#hero-background img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+/*Barre de naviguation*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    background-color: #090b13;
+    height: 70px;
+    padding: 0px 30px 0px 30px;
+    transition: top 0.3s ease-in-out;
+}
+
+#navbar img {
+     width: 6%;
+    display: block;
+}
+
+#navbar_button {
+	display: flex;
+}
+
+#navbar_button a h2 {
+    margin: 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#navbar_button #navbar_signup h2 {
+    color: white;
+    border-radius: 4px;
+    background-color: #0072D2;
+    z-index: 2;
+    border: 0px;
+}
+/*PREMIERE SECTION*/
+#wrapper {
+    position: relative;
+    z-index: 2;
+    margin: 145px 0px 0px 60px;
+} 
+
+#wrapper picture img{
+    width: 15%;
+    position: relative;
+    z-index: 2;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#resiliation p {
+    font-size: 0.7em;
+    color: hsla(0,0%,75.3%,.8);
+    margin: 30px 0px 0px;
+    width: 550px;
+    display: flex;
+}
+
+.prix {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.prix h3{
+    font-size: 2em;
+}
+
+.prix h3 span {
+    font-size: 0.4em;
+    color: hsla(0,0%,75.3%,.8);
+}
+
+.prix p {
+    font-size: 1em;
+    color: hsla(0,0%,75.3%,.8);
+    width: 300px;
+    margin: -30px 0px 40px
+}
+
+.prix a {
+    padding: 14.5px 38px;
+    border-radius: 4px;
+    background-color: #0072D2;
+    font-weight: bold;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+
+.button1 {
+    margin: 10px;
+	margin: 18px 0px 0px;
+}
+
+.button1 a {
+	padding: 14px 72px;
+
+}
+
+.resiliation {
+    display: flex;
+}
+
+
+#bas-page {
+    display: flex;
+	align-items: flex-end;
+	width: 90%;
+	margin: auto;
+	justify-content: space-between;
+}
+
+#bas-page img {
+    position: relative;
+    z-index: 2;
+    width: 45%;
+    margin: 90px 0px 0px;
+}
+
+#bas-page a img {
+    position: relative;
+	z-index: 2;
+	width: 100%;
+}
+
+/*SECTION A*/
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.container img {
+    width: 50%;
+    margin: 122px 0px 0px 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.text-container h2 {
+    font-size: 2.5em;
+}
+
+.text-container p {
+    font-size: 1.4em;
+    color: hsla(0,0%,75.3%,.8);
+}
+/*SECTION B*/
+
+.container-section-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container-section-reverse img {
+    width: 50%;
+    margin: 122px 0px 0px 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.text-section-reverse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.text-section-reverse h2 {
+    font-size: 2.5em;
+}
+
+.text-section-reverse p {
+    font-size: 1.4em;
+    color: hsla(0,0%,75.3%,.8);
+}
+
+/*SECTION DEVICE*/
+
+#container-section-7  h2{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.device-wrapper{
+    padding: 100px 0px 0px;
+    display: flex;
+}
+
+.cell-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+}
+
+.cell-wrapper img {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+.cell-wrapper p {
+    margin-bottom: 4px;
+    font-size: 1em;
+    color: hsla(0,0%,75.3%,.8);
+}
+/********/
+/********/
+/*FOOTER*/
+footer section {
+    padding: 0px 0px 30px 0px;
+}
+
+footer a {
+    font-size: 0.7em;
+	color: hsla(0,0%,75.3%,.8);
+	padding: 0px 0px 0px 10px;
+}
+
+#container-footer picture{
+    display: flex;
+    justify-content: center;
+}
+
+#container-footer img {
+    width: 5%;
+}
+
+#mention-legal {
+    text-align: center;
+}
+
+#container-footer {
+    text-align: center;
+    color: hsla(0,0%,75.3%,.8)
+}
+
+#container-footer p {
+    font-size: 0.7em;
+}
+
+#langues {
+        background:rgba(0, 0, 0, 0.15);
+        color: rgba(255, 255, 255, 0.521);
+        border: none;
+}
+/******************************/
+/******************************/
+/*VERSION SMARTPHONE TABLETTE */
+@media screen and (max-width: 992px){
+
+    /*Background*/
+    #hero-background{
+        display: none;
+    }
+
+    #hero-background-mobile img{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+    }
+    /*HEADER*/  
+    header h2{
+        color: white;
+        padding: 8px 16px;
+        font-size: 15px;
+        position: relative;
+        z-index: 5;
+        margin: 27px 9px 0px 0px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 0px solid #0072D2;
+        letter-spacing: 1px;
+        font-weight: 500;
+	}
+	
+
+    /*barre de naviguation*/
+
+    #navbar_button {
+        display: none;
+    } 
+
+    #navbar img {
+        width: 15%;
+    }
+    /*SECTION 1*/
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 140px 0px 0px 0px;
+    }
+
+    #wrapper picture {
+        display: flex;
+        justify-content: center;
+    }
+
+    #wrapper picture img{
+        width: 30%;
+    }
+
+    #wrapper h1 {
+        display: flex;
+        justify-content: center;
+        margin: 15px 0px 0px 0px;
+        font-size: 1.5em;
+    }
+
+    #wrapper #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prix a{
+        display: flex;
+        font-weight: 500;
+    }
+
+    .prix {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .prix p {
+    font-size: 1em;
+    color: hsla(0,0%,75.3%,.8);
+    margin: 0px 0px 0px;
+    width: initial;
+    }
+
+    .prix h3 {
+        margin: 15px 0px 0px 0px;
+    }
+
+    .button1 {
+        margin: 18px 0px 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    .ligne_{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .ligne {
+            border-top: 1px solid  hsla(0,0%,75.3%,.8);;
+            width: 280px;
+            margin: 15px 0px 0px
+    }
+
+    #resiliation{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    }
+
+    /*bas de page*/
+    #bas-page img{
+        display: none;
+	}
+	
+	#bas-page a img {
+	 display: flex;
+     justify-content: center;
+	}
+
+	#bas-page{
+	 display: flex;
+     justify-content: center;
+	}
+
+    /*SECTION A*/
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container img {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        z-index: 2;
+    }
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: initial;
+    }
+
+    .text-container h2 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .text-container p {
+        font-size: 1.3em;
+        color: hsla(0,0%,75.3%,.8);
+        text-align: center;
+    }
+    /*SECTION B*/
+    .container-section-reverse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-section-reverse img {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        z-index: 2;
+    }
+
+    .text-section-reverse {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: initial;
+    }
+
+    .text-section-reverse h2 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .text-section-reverse p {
+        font-size: 1.3em;
+        color: hsla(0,0%,75.3%,.8);
+        text-align: center;
+    }
+
+    /*DEVICE SECTION*/
+
+    #container-section-7 h2 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .device-wrapper {
+        padding: 100px 0px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .cell-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        margin: 0px 34px 0px 34px;
+        padding: 0px 0px 31pX 0px;
+    }
+
+    .cell-wrapper p {
+        text-align: center;
+    }
+
+    /*FOOTER*/
+
+    #container-footer picture {
+        display: flex;
+        justify-content: center;
+    }
+
+    #container-footer img {
+        width: 15%;
+    }
+
+    #container-footer p {
+        text-align: center;
+    }
+
+    #mention-legal {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #hero-background-mobile img{
+        display: none;
+    }
+    #navbar_button #navbar_signup h2 {
+        color: white;
+        border-radius: 4px;
+        background-color: #0072D2;
+        z-index: 2;
+        border: 0px;
+        margin: 0px 138px 0px 0px;
+    }
+    
+}
