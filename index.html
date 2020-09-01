@@ -49,7 +49,6 @@
               <img src="assets/disney-franchise-logos.png">
               <a href="#ancre"><img src="assets/arrow-rate.png"></a>
           </div>
-          <!---DEUXIEME SECTION--->
       </section>
       <!--DEUXIEME SECTION-->
       <section id="ancre">
@@ -158,8 +157,13 @@
                     <p>© Disney Tous droits réservés.</p>
                 </div>
             </section>
+            <div id="footer_navbar">
+                <div id="footer_navbar_button">
+                    <a herf="#" id="navbar_signup"><h2>INSCRIVEZ-VOUS</h2></a>
+                </div>
+            </div>
             </footer>
-            <script src="https://kit.fontawesome.com/6c62a2001a.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/6c62a2001a.js" crossorigin="anonymous"></script>
 <script type="text/javascript">
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {
@@ -170,10 +174,15 @@
     } else {
           document.getElementById("navbar").style.top = "-100px";
     }
+    if(  currentScrollpos > prevScrollpos) {
+            document.getElementById("footer_navbar").style.bottom = "0";
+      } else {
+            document.getElementById("footer_navbar").style.bottom = "-100px";
+      }
 
-    prevScrollpos = currentScrollpos;
 
     }
+
 </script>
 </body>
 </html>
